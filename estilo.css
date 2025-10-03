@@ -113,6 +113,40 @@ header .btn-contato button {
     height: 50px;
 }
 
+/* estilo do botão do menu mobile */
+
+header .btn-menu-mob {
+    display: none;
+}
+
+header .btn-menu-mob div{
+    background-color: #fff;
+    height: 3px;
+    margin: 10px 0;
+    transition: 0.2s;
+}
+
+header .btn-menu-mob .line-menu-mob-1{
+    width: 30px;
+}
+
+header .btn-menu-mob .line-menu-mob-2{
+    width: 20px;
+}
+
+header.rolar .btn-menu-mob div {
+    background-color: #000;
+}
+
+header .btn-menu-mob .line-menu-mob-1.ativo1 {
+    transform: rotate(45deg) translate(30%);
+}
+
+header .btn-menu-mob .line-menu-mob-2.ativo2 {
+    transform: rotate(-45deg) translate(30%);
+    width: 30px;
+}
+
 
 /* estilo do hero */
 
